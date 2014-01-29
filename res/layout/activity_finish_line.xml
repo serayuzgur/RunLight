@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".FinishLineActivity" >
+
+    <Button
+        android:id="@+id/finishlineFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/finishline_finish" />
+
+    <TextView
+        android:id="@+id/finishlineTitle"
+        style="@style/RunLightDefaultTextfieldBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/finishlineLogo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/finishline_motto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/finishlineMessage"
+        style="@style/RunLightDefaultTextfieldBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/finishlineSeparator"
+        android:layout_marginBottom="25dp"
+        android:text="@string/finishline_message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/finishlineSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/finishlineFinish"
+        android:layout_below="@+id/finishlineLogo"
+        android:background="@drawable/line_orange" />
+
+    <ImageView
+        android:id="@+id/finishlineLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/finishlineMessage"
+        android:layout_centerInParent="true"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/finishlineStart"
+                style="@style/RunLightDefaultTextfieldBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="08:56:21"
+                android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/finishlineEnd"
+                style="@style/RunLightDefaultTextfieldBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="08:56:21"
+                android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/finishlineStartLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/finishline_start"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/finishlineEndLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/finishline_end"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/finishlineDuration"
+                style="@style/RunLightDefaultTextfieldBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="122"
+                android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/finishlineDistance"
+                style="@style/RunLightDefaultTextfieldBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="5.6"
+                android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/finishlineDurationLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/finishline_duration"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/finishlineDistanceLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/finishline_distance"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/finishlineAvgSpeed"
+                style="@style/RunLightDefaultTextfieldBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="5.6"
+                android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/finishlineAvgSpeedLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/finishline_avg_speed"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <CheckBox
+        android:id="@+id/finishline_share_chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishline_save_chk"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/finishline_share" />
+
+    <CheckBox
+        android:id="@+id/finishline_save_chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishlineFinish"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:text="@string/finishline_save" />
+
+</RelativeLayout>

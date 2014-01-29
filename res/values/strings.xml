@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Run Light</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_line">Start Line</string>
+    <string name="title_activity_finish_line">Finish Line</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_stats">Stats</string>
+    <string name="title_activity_history">History &amp; Statistics</string>
+    <string name="title_activity_history_detail">Details</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saving">Saving&#8230;</string>
+    <string name="calculating">Calculating&#8230;</string>
+    
+    <string name="splash_welcome">Welcome to Run Light</string>
+    <string name="splash_motto">The Lighest &amp; Fastest Sports Tracker on Market </string>
+    <string name="splash_need_gps_service">Run Light needs your GPS service to run properly. Otherwise you will not be able to see correct results according to your run. Do you want to enable your
+        GPS service?
+    </string>
+    <string name="splash_no_gps_warning">You cannot get good location data without GPS service enabled. Please enable GPS service.</string>
+    <string name="startline_welcome">Welcome to the lightest  sports tracker</string>
+    <string name="startline_livemap">Live update on map</string>
+    <string name="startline_detailedgps">Detailed GPS track</string>
+    <string name="startline_batery_drain">(Faster Batery Drain)</string>
+    <string name="startline_start">Start</string>
+    <string name="startline_recovery">Run Light detected your previous running was interrupted. Do you want to save it now?  </string>
+
+    
+    
+    <string name="map_meters">mt.</string>
+    
+    
+
+    <string name="finishline_motto">Good Show!</string>
+    <string name="finishline_message">Here is your work: </string>
+    <string name="finishline_start">Start Time</string>
+    <string name="finishline_end">Finish Time</string>
+    <string name="finishline_duration">Duration (min)</string>
+    <string name="finishline_distance">Distance (mt) </string>
+    <string name="finishline_avg_speed">Avg. Speed (mt./sec.)</string>
+    <string name="finishline_save">I want to save this run!</string>
+    <string name="finishline_finish">Done!</string>
+    <string name="finishline_share">Share this run. (Must Save)</string>
+    
+    <string name="history_duration">Duration (min): </string>
+    <string name="history_distance">Distance (mt): </string>
+    <string name="history_avg_speed">Avg. Speed (mt./sec.): </string>
+    
+    <string name="history_detail_motto">Detail</string>
+    <string name="history_detail_message">Your previous run: </string>
+    <string name="history_detail_start">Start Time</string>
+    <string name="history_detail_end">Finish Time</string>
+    <string name="history_detail_duration">Duration (min)</string>
+    <string name="history_detail_distance">Distance (mt) </string>
+    <string name="history_detail_avg_speed">Avg. Speed (mt./sec.)</string>
+
+    
+    <string name="dialog_history_item_share">Share</string>
+    <string name="dialog_history_item_delete">Delete</string>
+    <string name="dialog_history_item_title">Operations</string>
+    <string name="dialog_history_item_delete_question">Are you sure?</string>
+    
+    
+    <string name="dialog_history_item_share_message">I completed {distance} km. with #Runlight !</string>
+
+
+    <string name="ribbon_menu_exit">Exit</string>
+    <string name="ribbon_menu_history">History</string>
+    <string name="ribbon_menu_end">End Run</string>
+    
+
+</resources>

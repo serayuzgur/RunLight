@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="250dp" >
+
+    <Button
+        android:id="@+id/dialogHistoryItemShare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_history_item_share" 
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/dialogHistoryItemDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_red"
+        android:padding="5dp"
+        android:shadowColor="#3b3b3b"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/dialog_history_item_delete"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/dialogHistoryItemCancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textColor="#ffffff"
+        android:shadowColor="#3b3b3b"
+        android:textSize="25sp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:padding="5dp"
+        android:background="@drawable/button_orange"
+		/>
+
+</LinearLayout>

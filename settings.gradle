@@ -1,0 +1,1 @@
+include ':modules:com_ribbonmenu',':modules:google-play-services_lib'

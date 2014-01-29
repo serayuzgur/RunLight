@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".historyDetailActivity" 
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/historyDetailTitle"
+        style="@style/RunLightDefaultTextfieldBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/historyDetailLogo"
+        android:text="@string/history_detail_motto"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/historyDetailSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyDetailLogo"
+        android:background="@drawable/line_orange" />
+
+    <ImageView
+        android:id="@+id/historyDetailLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/historyDetailSeparator"
+        android:layout_centerInParent="true" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:orientation="horizontal" 
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/historyDetailStart"
+                    style="@style/RunLightDefaultTextfieldBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="08:56:21"
+                    android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/historyDetailEnd"
+                    style="@style/RunLightDefaultTextfieldBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="08:56:21"
+                    android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/historyDetailStartLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/history_detail_start"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/historyDetailEndLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/history_detail_end"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/historyDetailDuration"
+                    style="@style/RunLightDefaultTextfieldBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="122"
+                    android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/historyDetailDistance"
+                    style="@style/RunLightDefaultTextfieldBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="5.6"
+                    android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/historyDetailDurationLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/history_detail_duration"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/historyDetailDistanceLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/history_detail_distance"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/historyDetailAvgSpeed"
+                    style="@style/RunLightDefaultTextfieldBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="5.6"
+                    android:textAppearance="@style/RunLightDefaultTextfieldBold"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/historyDetailAvgSpeedLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/history_detail_avg_speed"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <ImageView
+                android:id="@+id/historyDetailSnap"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/map_on" />
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

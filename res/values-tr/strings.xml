@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Run Light</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_start_line">Başlangıç</string>
+    <string name="title_activity_finish_line">Bitiş</string>
+    <string name="title_activity_map">Harita</string>
+    <string name="title_activity_stats">İstatistik</string>
+    <string name="title_activity_history">Geçmiş &amp; İstatistik</string>
+    <string name="title_activity_history_detail">Detaylar</string>
+    <string name="done">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="ok">OK</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="saving">Kaydediliyor&#8230;</string>
+    <string name="calculating">Hesaplanıyor&#8230;</string>
+    
+    <string name="splash_welcome">Run Light\'a Hoşgeldiniz</string>
+    <string name="splash_motto">En Hafif &amp; Hızlı Spor Takip Uygulaması </string>
+    <string name="splash_need_gps_service">Run Light düzgün çalışabilmek için telefonunuzun GPS servisine ihtiyaç duyar. Aksi taktirde antremanınız hakkında düzgün bilgiler edinemeyeceksiniz. GPS servisinizi açmak ister misiniz?
+    </string>
+    <string name="splash_no_gps_warning">GPS servisini aktive edilmediği sürece iyi bir konum saptayamayız. Lütfen GPS servisinizi aktive edin.</string>
+    <string name="startline_welcome">En Hafif spor takip uygulamasına hoşgeldiniz.</string>
+    <string name="startline_livemap">Canlı harita güncellemeleri</string>
+    <string name="startline_detailedgps">Detaylı GPS izi</string>
+    <string name="startline_batery_drain">(Batarya kullanımını arttırır)</string>
+    <string name="startline_start">Başla</string>
+    <string name="startline_recovery">Run Light son koşunuzun yarıda kesildiğini saptadı. Bu koşuyu şimdi sonuçlandırıp kaydetmek ister misiniz?  </string>
+
+    
+    
+    <string name="map_meters">mt.</string>
+    
+    
+
+    <string name="finishline_motto">İyi İş!</string>
+    <string name="finishline_message">İşte detayları: </string>
+    <string name="finishline_start">Başlangıç</string>
+    <string name="finishline_end">Bitiş</string>
+    <string name="finishline_duration">Süre (dk)</string>
+    <string name="finishline_distance">Mesafe (mt) </string>
+    <string name="finishline_avg_speed">Ort. Hız (mt./sn.)</string>
+    <string name="finishline_save">Koşumu kaydet!</string>
+    <string name="finishline_finish">Tamam!</string>
+    <string name="finishline_share">Koşumu paylaş. (Kaydedilmeli)</string>
+    
+    <string name="history_duration">Süre (dk): </string>
+    <string name="history_distance">Mesafe (mt): </string>
+    <string name="history_avg_speed">Ort. Hız (mt./sec.): </string>
+    
+    <string name="history_detail_motto">Detay</string>
+    <string name="history_detail_message">Eski koşun: </string>
+    <string name="history_detail_start">Başlangıç</string>
+    <string name="history_detail_end">Bitiş</string>
+    <string name="history_detail_duration">Süre (dk)</string>
+    <string name="history_detail_distance">Mesafe (mt) </string>
+    <string name="history_detail_avg_speed">Ort. Hız (mt./sec.)</string>
+
+    
+    <string name="dialog_history_item_share">Paylaş</string>
+    <string name="dialog_history_item_delete">Sil</string>
+    <string name="dialog_history_item_title">İşlemler</string>
+    <string name="dialog_history_item_delete_question">Emin misin?</string>
+    
+    
+    <string name="dialog_history_item_share_message">{distance} km. koşuyu tamamladım. #Runlight !</string>
+
+
+    <string name="ribbon_menu_exit">Çıkış</string>
+    <string name="ribbon_menu_history">Geçmiş</string>
+    <string name="ribbon_menu_end">Bitir</string>
+    
+
+</resources>
